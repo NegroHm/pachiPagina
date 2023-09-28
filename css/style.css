@@ -12682,7 +12682,18 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-brand a {
-	display: block;
+	display: block; 
+	color: black;
+	font-family: 'Inter', sans-serif;
+	font-style: italic;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	font-family: 40px;
+}
+.rd-navbar-brand img {
+	width: 100px;
+	height: 100px;
+	padding: 0 0 0 100px;
 }
 
 .rd-navbar-search {
