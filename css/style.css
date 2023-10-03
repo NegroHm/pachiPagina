@@ -94,6 +94,21 @@ html p a:hover {
 	text-decoration: none;
 }
 
+/* ! Esta seccion es para mi */
+
+.logoHeader img{
+	height: 10px;
+	width: 100px;
+}
+/* ! Esta seccion es para mi */
+
+.containerNosotros{
+	padding: 0 0 100px 0;
+}
+.separacion{
+	height: 100px;
+}
+
 /*
 *
 * Typography
@@ -12688,11 +12703,14 @@ html.tablet .ui-to-top {
 	font-style: italic;
 	text-transform: uppercase;
 	word-wrap: break-word;
-	font-family: 40px;
+	/* font-family: 40px; */
 }
+
+/* ! LOGO */
+
 .rd-navbar-brand img {
-	width: 100px;
-	height: 100px;
+	width: 70px;
+	height: 70px;
 	padding: 0 0 0 100px;
 }
 
