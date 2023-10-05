@@ -109,6 +109,9 @@ html p a:hover {
 	height: 100px;
 }
 
+/* aca vamos a poenr lo que sera los media */
+
+
 /*
 *
 * Typography
@@ -6253,7 +6256,6 @@ textarea.textarea-lg {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
-	background-image: url(../images/quote-jean.png);
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 }
@@ -19629,9 +19631,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 *
 * Material Parallax
 */
+
+
 .parallax-container {
 	position: relative;
 	overflow: hidden;
+}
+.parallax-container h3{
+	color: black; 
 }
 
 .material-parallax {
@@ -20269,3 +20276,4 @@ disabled look for disabled choices in the results dropdown
 .modal-body {
 	padding: 29px 30px 35px;
 }
+
